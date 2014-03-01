@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+/* Arthur Attwell http://arthurattwell.com */
+
+/* -------------- BODY */
+
+body {
+	font-family: "Source Sans Pro", sans-serif;
+	margin: 0;
+	padding: 0;
+	line-height: 130%;
+}
+
+/* -------------- STRUCTURE */
+
+#wrapper {
+	margin: 0 auto;
+}
+
+#header {
+	width: 100%;
+	max-height: 200px;
+}
+
+	div.avatar-owner, div.avatar-collaborator {
+		float: left;
+	}
+
+#feed {
+	clear: both;
+	height: 100%;
+	width: 25%;
+	float: left;
+	padding: 0 0 0 0.5em;
+	border-right: 1px solid gainsboro;
+}
+
+#map {
+	width: 75%;
+	height: 100%;
+}
+
+#footer {
+}
+
+/* -------------- TEXT ELEMENTS */
+
+h1, h2, h3, h3, h4, h5, h6 {
+}
+p {
+}
+a img { 
+	border: none;
+}
+a:link {
+	color:#69C;
+	text-decoration: none;
+}
+a:visited {
+	color: #669;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus {
+	text-decoration: underline;
+}
+a.button {
+	display: block; 
+	background-color: silver; 
+	border: 1px solid gainsboro; 
+	border-radius: 0.25em; 
+	width: 10em; 
+	padding: 0.5em; 
+	text-align: center; 
+	text-decoration: none; 
+	color: white; 
+	font-weight: bold;
+	/*margin: 1em 1em 1em 0;*/
+}
+a.button:hover {
+	background-color: grey;
+}
+/* -------------- IMAGES */
+
+img.avatar {
+	width: 200px;
+	height: 200px;
+}
